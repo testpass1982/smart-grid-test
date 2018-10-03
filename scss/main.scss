@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    width: fit-content;
+    min-width: 100%;
+    height: 100%;
+}
+
+.mtb10 {
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.flex-container {
+    background-color: silver;
+    border: solid 2px black;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 33%;
+    padding: 5px;
+    // margin-bottom: 5px;
+
+}
+.box {
+    background-color: gray;
+    color: white;
+    flex-basis: 30%;
+    padding: 5px;
+    width: 100%;
+}
+
+.basis30{
+    flex-basis: 30%;
+}
+
+.box-bordered {
+    border: solid 2px blue;
+}
+
+.box-greedy {
+    flex-grow: 1;
+}
+
